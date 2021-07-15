@@ -6,6 +6,12 @@ body {
   font-size: 18px;
   background-color: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 80%, 80%;
+  background-position-x: -8rem, 12rem;
+  background-position-y: -8rem, 28rem;
 }
 h1 {
   color: hsl(229, 23%, 23%);
@@ -111,6 +117,10 @@ a {
 
 /*------------------------- 600PX --------------------------------*/
 @media (min-width: 600px) {
+  body {
+    background-position-x: -14rem, 20rem;
+    background-position-y: -14rem, 26rem;
+  }
   .container {
     margin: 20% 15%;
     border-radius: 15px;
