@@ -144,10 +144,11 @@ a {
 @media (min-width: 1200px) {
   body {
     background-position-x: -25rem, 35rem;
-    background-position-y: -30rem, 35rem;
+    background-position-y: -45rem, 25rem;
   }
   .container {
     border-radius: 15px;
-    width: 35%;
+    width: 28%;
+    margin-top: 8%;
   }
 }
