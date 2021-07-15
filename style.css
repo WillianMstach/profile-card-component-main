@@ -140,3 +140,14 @@ a {
     width: 40%;
   }
 }
+/*------------------------- 1200PX --------------------------------*/
+@media (min-width: 1200px) {
+  body {
+    background-position-x: -25rem, 35rem;
+    background-position-y: -30rem, 35rem;
+  }
+  .container {
+    border-radius: 15px;
+    width: 35%;
+  }
+}
